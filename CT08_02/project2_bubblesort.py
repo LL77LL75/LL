@@ -5,11 +5,14 @@ list4 = [15, 21, 8, 32, 46, 44, 37, 20, 27, 22]
 list5 = [11, 38, 4, 28, 24, 41, 15, 10, 45, 14]
 lists = [list1,list2,list3,list4,list5]
 for i in lists:
-  for a in range(len(i)-1):
-      if i[a] > i[a+1]:
-        z = i[a]
-        i[a] = i[a+1]
-        i[a+1] = z
-        pass
+    j=0
+    for e in range(1,len(i)):
+      j+=1
+      for a in range(len(i)-1-j):
+        if i[a] > i[a+1]:
+            z = i[a]
+            i[a] = i[a+1]
+            i[a+1] = z
+            pass
 for i in lists:
    print(i)
