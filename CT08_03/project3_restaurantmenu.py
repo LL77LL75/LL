@@ -25,7 +25,7 @@ while ans != "":
         print(f"{rem} removed")
     else:
 
-        if input("are you sure? ")) == "y":
+        if input("are you sure? ") == "y":
              print(ans + " costs $" + str(menu[ans]))
              items.append(ans)
 
