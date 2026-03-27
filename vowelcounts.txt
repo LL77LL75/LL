@@ -1,0 +1,7 @@
+total characters 52968 
+total vowels 15705 
+There are 3401 a 
+There are 4835 e 
+There are 2932 i 
+There are 3227 o 
+There are 1310 u 
