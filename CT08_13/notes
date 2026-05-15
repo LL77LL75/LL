@@ -1,0 +1,9 @@
+notes
+ascii:
+    ord(x) - gets the num for the character
+    chr(x) - gets the character for the number
+files:
+    with open(filepath,mode) as f: - modes: r for read w for write and a for append
+        content = f.read() - to get content
+        for i in content:
+            i.strip()
